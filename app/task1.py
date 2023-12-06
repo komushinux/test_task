@@ -75,8 +75,8 @@ def verify_data(test_text, list_keys):
 
 
 if __name__ == '__main__':
-    with open("./input/text.txt", "r") as file:
+    with open("input/text.txt", "r") as file:
         text = file.read()
-    with open("./input/list_keys.txt", "r") as file:
+    with open("input/list_keys.txt", "r") as file:
         keys = list(file.read().split(" "))
     print(verify_data(text, keys))

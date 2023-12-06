@@ -18,7 +18,7 @@ def group_and_count(list_version):
 
 
 if __name__ == '__main__':
-    with open("./input/list_version.txt", "r") as file:
+    with open("input/list_version.txt", "r") as file:
         List_version = file.read().split('\n')
     lst = []
     for i in List_version:

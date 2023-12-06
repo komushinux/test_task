@@ -1,4 +1,4 @@
-from input.task3_input import old, new, diff
+from ..input.task3_input import old, new, diff
 
 
 def find_json_diff(json_old, json_new, diff_list):

@@ -4,10 +4,8 @@ Connects to MongoDB and registers functions to be called based on webhook data.
 """
 
 from datetime import datetime
-
 from fastapi import FastAPI, HTTPException
-
-from task4 import collection
+from app.task4 import collection
 
 app = FastAPI()
 function_handlers = {}
